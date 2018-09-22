@@ -1,0 +1,387 @@
+/* Extra Small Screens 600px and Below */
+
+@media only screen and (max-width: 599px) {
+  .title1 {
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+  }
+  .title2 {
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  .greenBoxTxt {
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 20px;
+  }
+  .borderBox1 {
+    border: 5px solid gray;
+    width: 75%;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+  .borderBox2 {
+    float: left;
+    border: 5px solid gray;
+    width: 45%;
+    height: 80px;
+    position: absolute;
+    top: 120px;
+    left: 17px;
+  }
+  .borderBox3 {
+    float: right;
+    border: 5px solid gray;
+    width: 46%;
+    height: 40px;
+    position: absolute;
+    top: 120px;
+    right: 17px;
+  }
+   .redBox {
+    background-color: red;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      right: 5px;
+      top: -20px;
+  }
+  .greenBox {
+    background-color: #0FB80A;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+      left: 30px;
+      top: -20px;
+  }
+  .blueBox {
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      left: -20px;
+      top: 2px;
+  }
+  .yellowBox {
+    background-color: #E0FF00;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: absolute;
+      right: -75px;
+      top: 60px;
+  }
+  .imagePete {
+    position: absolute;
+    right: -40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 75px;
+  }
+}
+
+/* Small Screens (-s) 600px - 767px */
+
+@media only screen and (min-width: 600px) {
+  .title1-s {
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+  }
+  .title2-s {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+  }
+  .greenBoxTxt-s {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 40px;
+  }
+  .borderBox1-s {
+    border: 5px solid gray;
+    width: 75%;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+  }
+  .borderBox2-s {
+    float: left;
+    border: 5px solid gray;
+    width: 45%;
+    height: 100px;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+  .borderBox3-s {
+    float: right;
+    border: 5px solid gray;
+    width: 47%;
+    height: 50px;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+  }
+   .redBox-s {
+    background-color: red;
+    width: 75%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      right: 5px;
+      top: -20px;
+  }
+  .greenBox-s {
+    background-color: #0FB80A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+      left: 70px;
+      top: -20px;
+  }
+  .blueBox-s {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      left: -30px;
+      top: 5px;
+  }
+  .yellowBox-s {
+    background-color: #E0FF00;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+      right: -135px;
+      top: 85px;
+  }
+  .imagePete-s {
+    position: absolute;
+    right: -50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+  }
+}
+
+/* Medium Screens (-m) 768px - 1023px */
+
+@media only screen and (min-width: 768px) {
+  .title1-m {
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+  }
+  .title2-m {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+  }
+  .greenBoxTxt-m {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 40px;
+  }
+  .borderBox1-m {
+    border: 5px solid gray;
+    width: 75%;
+    height: 60px;
+    position: relative;
+    top: 40px;
+    left: 128px;
+  }
+  .borderBox2-m {
+    float: left;
+    border: 5px solid gray;
+    width: 45%;
+    height: 120px;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+  .borderBox3-m {
+    float: right;
+    border: 5px solid gray;
+    width: 47%;
+    height: 60px;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+  }
+   .redBox-m {
+    background-color: red;
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      right: 5px;
+      top: -20px;
+  }
+  .greenBox-m {
+    background-color: #0FB80A;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+      left: 70px;
+      top: -20px;
+  } 
+  .blueBox-m {
+    background-color: blue;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+      left: -30px;
+      top: 5px;
+  }
+  .yellowBox-m {
+    background-color: #E0FF00;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: absolute;
+      right: -135px;
+      top: 85px;
+  }
+  .imagePete-m {
+    position: absolute;
+    right: -50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 75px;
+  }
+}
+  
+/* Large Screens (-l) 1024px and up */
+
+@media only screen and (min-width: 1024px) {
+  .title1-l {
+    color: white;
+    font-family: Arial;
+    font-size: 36px;
+  }
+  .title2-l {
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+  }
+  .greenBoxTxt-l {
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+    padding: 40px;
+  }
+  .borderBox1-l {
+    border: 5px solid gray;
+    width: 75%;
+    height: 70px;
+    position: relative;
+    top: 40px;
+    left: 128px;
+  }
+  .borderBox2-l {
+    float: left;
+    border: 5px solid gray;
+    width: 45%;
+    height: 140px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+  .borderBox3-l {
+    float: right;
+    border: 5px solid gray;
+    width: 47%;
+    height: 70px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+  }
+  .redBox-l {
+    background-color: red;
+    width: 75%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 5px;
+    top: -20px;
+  }
+  .greenBox-l {
+    background-color: #0FB80A;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+  } 
+  .blueBox-l {
+    background-color: blue;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+  }
+  .yellowBox-l {
+    background-color: #E0FF00;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    right: -135px;
+    top: 95px;
+  }
+  .imagePete-l {
+    position: absolute;
+    right: -50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 75px;
+  }
+}

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Pete from '../images/pete.jpg';
-import Resume from '../images/resume.png';
-
+import AboutIcon from '../images/aboutIcon.svg';
 
 class Home extends Component {
   render() {
@@ -16,7 +15,9 @@ class Home extends Component {
         </div>
         <div className="borderBox2 borderBox2-s borderBox2-m borderBox2-l">
           <div className="greenBox greenBox-s greenBox-m greenBox-l">
-            <div className="greenBoxTxt greenBoxTxt-s greenBoxTxt-m greenBoxTxt-l">about me</div>
+            <img className="aboutIcon-l" src={AboutIcon} alt="About Me"/>
+            <div className="greenBoxTxt greenBoxTxt-s greenBoxTxt-m greenBoxTxt-l">about me
+            </div>
           </div>
             <div className="yellowBox yellowBox-s yellowBox-m yellowBox-l"></div>
         </div>
@@ -25,9 +26,6 @@ class Home extends Component {
             <div className="title2 title2-s title2-m title2-l">projects</div>
           </div>
         </div>
-        {/* <div className="resumeBox"> */}
-        {/* <img className="imageResume" src={Resume} alt="Pete Alberico Resume" /> */}
-        {/* </div> */}
      </div>
     );
   }

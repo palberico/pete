@@ -45,6 +45,7 @@
   }
    .redBox {
     background-color: red;
+    background-image: linear-gradient(red, #9A0B0B);
     width: 75%;
     height: 40px;
     display: flex;
@@ -57,6 +58,7 @@
   }
   .greenBox {
     background-color: #0FB80A;
+    background-image: linear-gradient(#0FB80A, #11820E);
     width: 100%;
     height: 40px;
     display: flex;
@@ -67,6 +69,7 @@
   }
   .blueBox {
     background-color: blue;
+    background-image: linear-gradient(#301A72, #1F00FF);
     width: 100%;
     height: 80px;
     display: flex;
@@ -79,6 +82,7 @@
   }
   .yellowBox {
     background-color: #E0FF00;
+    background-image: linear-gradient(#E0FF00, #C5DF0E);
     width: 100%;
     height: 40px;
     display: flex;
@@ -142,6 +146,7 @@
   }
    .redBox-s {
     background-color: red;
+    background-image: linear-gradient(red, #9A0B0B);
     width: 75%;
     height: 50px;
     display: flex;
@@ -154,6 +159,7 @@
   }
   .greenBox-s {
     background-color: #0FB80A;
+    background-image: linear-gradient(#0FB80A, #11820E);
     width: 100%;
     height: 50px;
     display: flex;
@@ -164,6 +170,7 @@
   }
   .blueBox-s {
     background-color: blue;
+    background-image: linear-gradient(#301A72, #1F00FF);
     width: 100%;
     height: 100px;
     display: flex;
@@ -176,6 +183,7 @@
   }
   .yellowBox-s {
     background-color: #E0FF00;
+    background-image: linear-gradient(#E0FF00, #C5DF0E);
     width: 100%;
     height: 50px;
     display: flex;
@@ -239,6 +247,7 @@
   }
    .redBox-m {
     background-color: red;
+    background-image: linear-gradient(red, #9A0B0B);
     width: 75%;
     height: 60px;
     display: flex;
@@ -251,6 +260,7 @@
   }
   .greenBox-m {
     background-color: #0FB80A;
+    background-image: linear-gradient(#0FB80A, #11820E);
     width: 100%;
     height: 60px;
     display: flex;
@@ -261,6 +271,7 @@
   } 
   .blueBox-m {
     background-color: blue;
+    background-image: linear-gradient(#301A72, #1F00FF);
     width: 100%;
     height: 120px;
     display: flex;
@@ -273,6 +284,7 @@
   }
   .yellowBox-m {
     background-color: #E0FF00;
+    background-image: linear-gradient(#E0FF00, #C5DF0E);
     width: 100%;
     height: 60px;
     display: flex;
@@ -306,7 +318,10 @@
     color: white;
     font-family: Arial;
     font-size: 24px;
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+      left: 40px;
   }
   .borderBox1-l {
     border: 5px solid gray;
@@ -336,6 +351,7 @@
   }
   .redBox-l {
     background-color: red;
+    background-image: linear-gradient(red, #9A0B0B);
     width: 75%;
     height: 70px;
     display: flex;
@@ -348,16 +364,16 @@
   }
   .greenBox-l {
     background-color: #0FB80A;
+    background-image: linear-gradient(#0FB80A, #11820E);
     width: 100%;
     height: 70px;
-    display: flex;
-    align-items: center;
     position: absolute;
     left: 50px;
     top: -20px;
   } 
   .blueBox-l {
     background-color: blue;
+    background-image: linear-gradient(#301A72, #1F00FF);
     width: 100%;
     height: 140px;
     display: flex;
@@ -370,6 +386,7 @@
   }
   .yellowBox-l {
     background-color: #E0FF00;
+    background-image: linear-gradient(#E0FF00, #C5DF0E);
     width: 100%;
     height: 70px;
     display: flex;
@@ -383,5 +400,10 @@
     width: 90px;
     height: 90px;
     border-radius: 75px;
+  }
+  .aboutIcon-l {
+    padding: 40px;
+    width: 30px;
+    height: 42px;
   }
 }
